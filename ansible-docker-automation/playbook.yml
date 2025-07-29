@@ -1,7 +1,0 @@
-
-- name: Automate Docker container setup
-  hosts: webserver
-  become: yes
-
-  roles:
-    - docker
